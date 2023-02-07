@@ -128,12 +128,14 @@ p {
 
 .icon {
     margin: 20px 16px;
-    font-size: 20px;
+    font-size: 40px;
     background: -webkit-gradient(linear, left top, right top, from(#02309a), color-stop(100%, #00d2ff));
     background: linear-gradient(90deg, #02309a 0%, #1e5a67 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: .5;
+    transition: .5s;
+    
 }
 
 .icon:nth-child(1) {
@@ -141,12 +143,12 @@ p {
 }
 
 .icon:hover {
-    background: -webkit-gradient(linear, left top, left bottom, from(#02309a), color-stop(79%, #00d2ff));
-    background: linear-gradient(180deg, #02309a 0%, #00d2ff 79%);
+    background: dodgerblue;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-transition: .5s;
-    transition: .5s;
+    
+    
 }
 
 .work-btn {
@@ -250,6 +252,7 @@ p {
 }
 .ser p{
     height: 110px;
+    font-size: 18px;
 }
 .ser a {
     pointer-events: painted;
